@@ -4,7 +4,7 @@ console.log(
 );
 
 // Exercise 1
-console.log(`
+
 
 let a = 20;
 let b = 4;
@@ -13,9 +13,13 @@ let sum = a + b;
 let minus = a - b;
 let multiply = a * b;
 let dividing = a / b;
-`)
 
-console.log(`
+console.log(sum)
+console.log(minus)
+console.log(multiply)
+console.log(dividing)
+
+
 
 let num = 11;
 let str = "11";
@@ -24,26 +28,25 @@ let isPresent = true;
 let firstName = "Frodo";
 let lastName = "Baggins";
 
-num + str = 1111
-num + str2 = 11eleven
-num + isPresent = 12 
-firstName + num = Frodo11
-isPresent + str = true11
-firstName + lastName = FrodoBaggins
-`)
+console.log(num + str)
+console.log(num + str2)
+console.log(num + isPresent)
+console.log(firstName + num)
+console.log(isPresent + str)
+console.log(firstName + lastName)
 
-console.log(`
+
+
 let val = 5;
 let str3 = "5";
 let str4 = "five";
 let isAwake = false;
 
-val ==str3 = true
-val === str3 = false
-!isAwake = true
-("eleven" == str4 && val >= str3) = false
-0 == false = true
-0 === false = false 
-0 != false = false
-0 !== false = true
-`)
+console.log(val ==str3)
+console.log(val === str3)
+console.log(!isAwake)
+console.log(("eleven" == str4 && val >= str3) )
+console.log(0 == false)
+console.log(0 === false) 
+console.log(0 != false)
+console.log(0 !== false)
